@@ -1,29 +1,39 @@
-📡 **Projeto Java - Conversão JSON para Objetos Java com Gson**
+# 📡 Projeto Java - Conversão JSON para Objetos Java com Gson
 
-🔖 **Sobre o projeto**  
-Este projeto foi desenvolvido como um exercício prático para demonstrar diferentes formas de converter dados JSON em objetos Java utilizando a biblioteca Gson. Ele cobre cenários que vão desde a conversão simples até o tratamento de campos opcionais e objetos aninhados.
+## 🔖 Sobre o projeto  
+Este projeto foi desenvolvido como exercício de prática para demonstrar a **conversão de JSON em objetos Java** utilizando a biblioteca Gson. Ele aborda diferentes cenários, desde JSONs completos até campos opcionais e estruturas aninhadas.
 
-🎯 **Funcionalidades**  
+---
+
+## 🎯 Funcionalidades
+
 ✔️ Permite a conversão de JSON para objetos Java com:
 
 - Campos completos e obrigatórios  
-- Campos opcionais, suportando JSONs parciais  
-- Estruturas aninhadas com objetos dentro de objetos  
+- Campos opcionais (flexibilidade para JSONs parciais)  
+- Estruturas aninhadas (objetos dentro de objetos, ex: Livro e Editora)  
 
-🧠 **Técnicas e conceitos utilizados**  
-✅ Uso da biblioteca Gson para serialização e desserialização JSON  
-✅ Configurações flexíveis de parsing com `GsonBuilder` (`serializeNulls()`, `setLenient()`)  
-✅ Uso de records do Java para definição simples e imutável de dados  
-✅ Manipulação de JSON aninhado com objetos compostos (`Livro` e `Editora`)  
+---
 
-🚀 **Tecnologias e ferramentas**  
+## 🧠 Técnicas e conceitos utilizados
+
+✅ Utilização da biblioteca Gson para serialização e desserialização JSON  
+✅ Configurações avançadas com `GsonBuilder` (`serializeNulls()`, `setLenient()`)  
+✅ Uso de records Java para modelagem simples e imutável dos dados  
+✅ Manipulação de JSON aninhado com classes compostas (`Livro` e `Editora`)  
+
+---
+
+## 🚀 Tecnologias e ferramentas
+
 - Java 17+  
 - IntelliJ IDEA
 - Git e GitHub
 - Biblioteca Gson (Google)  
 
-📂 **Organização do Projeto**
+---
 
+## 📂 Organização do Projeto
 ```
 src/
 ├── ConversaoJsonParaObjeto.java # Exemplo de conversão JSON completo para Pessoa
@@ -38,3 +48,4 @@ src/
 Vinícius Alves Dias
 
 Projeto desenvolvido para fins educacionais, com foco em manipulação e integração JSON em Java.
+
